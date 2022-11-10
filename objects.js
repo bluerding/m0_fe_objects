@@ -108,3 +108,27 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+emails = [
+  {
+    sender: "Me",
+    recipient: "You",
+    subject: "Hi",
+    body: "Good to talk to you",
+    forward: "no"
+  },
+  {
+    sender: "You",
+    recipient: "Me",
+    subject: "Hello back",
+    body: "Good to see you the other day",
+    forward: "yes"
+  },
+  {
+    sender: "Boss",
+    recipient: "Me",
+    subject: "Congratulation",
+    body: "You got a huge raise",
+    forward: "everyone"
+  }
+]
+console.log(emails)
